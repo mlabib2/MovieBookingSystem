@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BCFD4C;
+}
+header{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    /* border: 2px solid #6E6E6E; */
+    border-radius:10px;
+    }
+    nav ul li{
+        padding:5px 1rem; 
+        
+    }
+    nav ul li:hover{
+        
+        background-color:black;
+    }
+    nav ul li a:hover{
+        color: white;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: bold;
+        color:#6E6E6E;
+    }
+    footer{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background-color:black;
+        padding:10px;
+        color:white;
+    }
+    footer a{
+        color:rgb(117, 117, 206);
+        text-decoration:none;
+    
+    }
+    footer a:hover{
+        color:white;
+        /* transform:scale(1.2); */
+    }
+    @media screen and (max-width:600px){
+        
+        nav ul li{
+            padding:5px 0.5rem; 
+            
+        }
+    }

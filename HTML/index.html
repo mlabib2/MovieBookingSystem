@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iMovies- Home</title>
+    <link rel="stylesheet" href="../CSS/main1.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navlist">
+        <ul>
+          <li>
+            <a href="index.html" class="home">HOME</a>
+          </li>
+          <li><a href="Page2.html">NOW SHOWING</a></li>
+          <li><a href="page3.html">TICKET</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img src="../images/money.png " alt="Logo" />
+      </div>
+      <h1>iMovies-Heaven for Movies</h1>
+    </header>
+    <div id="video" class="video">
+      <p>Showing one of the movies</p>
+      
+      <video id="VIDEO" muted controls  autoplay> 
+        <source
+          src="https://courses.cs.cityu.edu.hk/cs2204/video/casablanca-s.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://courses.cs.cityu.edu.hk/cs2204/video/casablanca-s.ogg"
+          type="video/ogg"
+        />
+      </video>
+      <div id="videoBox">
+        <div>Movie Name:Casablanca</div>
+        <div>Cast: Humphrey Bogart, Ingrid Bergmen</div>
+        <div>Director:Michael Curtiz</div>
+        <div>Duration: 130</div>
+      </div>
+    </div>
+    <h3>List of Movies</h3>
+    <div class="movies1">
+      <div class="movies" id="movies">
+        <div class="nowShowing" id="nowShowing">
+          <fieldset id="fieldset1">
+            <legend>Now Showing</legend>
+            <br />
+          </fieldset>
+        </div>
+        <div class="nowShowing" id="upcoming">
+          <fieldset id="fieldset2">
+            <legend>Upcoming Movies</legend>
+            <br />
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        &copy; Copyright of resources belong to corresponding copyright holders.
+        All rights reserved.
+      </p>
+      <div class="links" id="links">
+        <a title="Home" class="home">Home</a>
+        <a href="design.html" title="Design">Design</a>
+      </div>
+    </footer>
+    <script src="../scripts/movies.js">
+
+    </script>
+    <script src="../scripts/index.js"></script>
+   
+  </body>
+</html>

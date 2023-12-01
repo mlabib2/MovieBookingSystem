@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+*{
+   
+    box-sizing: border-box;
+    
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: #BCFD4C;
+}
+.logo img{
+    width:5em;
+    height:6em;
+}
+.layout{
+    height: 12rem;
+    width: 12rem;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.nav1,.logo1,.name1,.content1,.footer1{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   border:1px solid black;
+}
+.content1{
+    height:55%;
+}
+.nav1{
+    background-color:white;
+}
+.logo1{
+    background-color:rgb(64, 177, 197);
+
+}
+.name1{
+    background-color:orange;
+}
+.content1{
+    background-color:pink;
+}
+.footer1{
+    background-color:black;
+    color:white;
+}
